@@ -19,7 +19,7 @@
 
 ## シーケンス図
 
-- **HTTP**
+- **http_sample**
 
 ```mermaid
 sequenceDiagram
@@ -64,7 +64,7 @@ sequenceDiagram
 7. **messages状態変数の更新と新しいメッセージの入力欄のクリア**：クライアントは再度JSONレスポンスをパースして状態変数`messages`を更新し、新たなメッセージが描画されます。そして、新しいメッセージの入力欄はクリアされます。
 
 
-- **WebSocket**
+- **websocket_sample**
 
 ```mermaid
 sequenceDiagram
